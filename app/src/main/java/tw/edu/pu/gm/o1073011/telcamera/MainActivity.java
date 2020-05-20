@@ -2,9 +2,13 @@ package tw.edu.pu.gm.o1073011.telcamera;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
+import android.provider.MediaStore;
 import android.view.View;
 import android.widget.Button;
+import android.widget.EditText;
 
 import com.karumi.dexter.Dexter;
 import com.karumi.dexter.DexterActivity;
